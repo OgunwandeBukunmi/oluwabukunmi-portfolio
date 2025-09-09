@@ -2,7 +2,8 @@ import { Typewriter } from "react-simple-typewriter";
 import { useEffect,useRef } from "react";
 import gsap from "gsap";
 function Hero() {
-  const parentRef = useRef<HTMLAllCollection>(null)
+ const parentRef = useRef<HTMLDivElement>(null);
+
   useEffect(()=>{
     const ct = gsap.context(()=>{
       gsap.to(parentRef.current,{
@@ -68,5 +69,6 @@ function Hero() {
 }
 
 export default Hero;
+
 
 
