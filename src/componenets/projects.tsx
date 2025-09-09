@@ -44,7 +44,9 @@ function Project() {
             <div
               key={i}
               id={`item${i}`}
-              ref={(el) => (projectsRef.current[i] = el)}
+              ref={(el) => {
+                (projectsRef.current[i] = el)
+              }}
               className="opacity-0 translate-y-5"
             >
               <ProjectComponent d={d} />
