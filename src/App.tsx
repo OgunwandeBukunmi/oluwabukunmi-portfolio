@@ -98,7 +98,7 @@ function App() {
         }}/>
         </div>
        
-        <ul className= {isHidden ? " absolute top-15 hidden my-4 bg-gray-50 rounded-lg p-10 w-full text-center gap-6 text-gray-700 font-medium md:hidden transition" : " z-20 max-w-2xl absolute top-15 flex flex-col my-4 bg-gray-50 rounded-lg p-10 w-full text-center gap-6 text-gray-700 font-medium md:hidden transition"}>
+        <ul className= {isHidden ? " absolute top-30 md:top-15 hidden my-4 bg-gray-50 rounded-lg p-10 w-full text-center gap-6 text-gray-700 font-medium md:hidden transition" : " z-20 max-w-2xl absolute top-15 flex flex-col my-4 bg-gray-50 rounded-lg p-10 w-full text-center gap-6 text-gray-700 font-medium md:hidden transition"}>
           <li>
             <a href="#about" className="hover:text-indigo-600 transition ">
               About
