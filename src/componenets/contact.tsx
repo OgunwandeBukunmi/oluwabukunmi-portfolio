@@ -4,7 +4,7 @@ import { FiTwitter } from "react-icons/fi"
 import { FaWhatsapp } from "react-icons/fa"
 import { FaTiktok } from "react-icons/fa"
 import { collection , addDoc } from "firebase/firestore"
-import {db} from "../../firebaseConfig.ts"
+import {db} from "./firebaseConfig.ts"
 import { useState } from "react"
 function Contact(){
       const [Name,setName] = useState("")
@@ -67,5 +67,6 @@ async function handleSubmit(){
         </section>
     )
 }
+
 
 export default Contact
