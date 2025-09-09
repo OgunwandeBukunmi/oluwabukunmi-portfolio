@@ -8,14 +8,7 @@ type project =  {
 
 const data: project[] = 
     [
-  {
-    name: "CentKey",
-    description:
-      "CentKey is a modern fintech platform that securely connects multiple bank accounts and consolidates assets into a single, streamlined dashboard—making financial management effortless and transparent.",
-    imageUrl: "/centkey.png",
-    websiteUrl: "https://centkey.com",
-    githuburl: "https://github.com/OgunwandeBukunmi/bankapp_frontend",
-  },
+ 
   {
     name: "Flexi Form",
     description:
@@ -48,7 +41,16 @@ const data: project[] =
     websiteUrl: "https://web3wallet.onrender.com/",
     githuburl: "https://github.com/OgunwandeBukunmi/web3-wallet-report",
   },
+     {
+    name: "CentKey",
+    description:
+      "CentKey is a modern fintech platform that securely connects multiple bank accounts and consolidates assets into a single, streamlined dashboard—making financial management effortless and transparent.",
+    imageUrl: "/centkey.png",
+    websiteUrl: "https://centkey.com",
+    githuburl: "https://github.com/OgunwandeBukunmi/bankapp_frontend",
+  },
 ];
+
 
 
 
